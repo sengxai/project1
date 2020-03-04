@@ -35,3 +35,11 @@ li{
     text-align: center;
     text-decoration: none;
 }
+
+flex{
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
