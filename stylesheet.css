@@ -27,3 +27,11 @@ li{
     padding: 10px;
     border-left: 1px solid white;
 }
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
