@@ -1,12 +1,19 @@
-h1{
+header h1{
     background-color: black;
     color: white;
     padding: 15px;
     margin: 0;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 55px;
 }
 
 body{
     background-color: pink;
+    margin: 0;
 }
 
 nav{
@@ -35,6 +42,22 @@ li{
     text-align: center;
     text-decoration: none;
 }
+
+.gaoneng{
+    text-align: center;
+}
+
+.gaoneng img {
+    width: 500px;
+    top: 50%;
+}
+
+.aboutMe{
+    text-align: center;
+    font-size: 24px;
+}
+
+
 
 flex{
     
