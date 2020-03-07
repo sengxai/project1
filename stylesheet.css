@@ -8,12 +8,38 @@ header h1{
 
 h2{
     text-align: center;
-    font-size: 55px;
+    font-size: 35px;
+    
 }
 
 body{
     background-color: pink;
     margin: 0;
+}
+
+#nav ul{
+    margin: 0;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    display: flex;
+}
+#nav li a{
+    display: block;
+    padding: 10px;
+    border-left: 1px solid white;
+    text-decoration: none;
+    color: black;
+}
+
+.active{
+    background-color: #4d94ff;
+    color: black;
+}
+
+#nav li:hover{
+    background-color: #80b3ff;
+    color: black;
 }
 
 nav{
@@ -23,16 +49,17 @@ nav{
 }
 
 ul{
-    margin: 0;
+    /*margin: 0;
     flex-direction: row;
     justify-content: flex-end;
     list-style: none;
-    display: flex;
+    display: flex;*/
 }
 
+
 li{
-    padding: 10px;
-    border-left: 1px solid white;
+    /*padding: 10px;
+    border-left: 1px solid white;*/
 }
 
 .fa{
@@ -49,20 +76,16 @@ li{
 
 .gaoneng img {
     width: 500px;
-    top: 50%;
+    margin: 50;
 }
 
 .aboutMe{
+    
     text-align: center;
     font-size: 24px;
 }
 
 
-
-flex{
-    
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
+#insta{
+    text-align: center;
 }
