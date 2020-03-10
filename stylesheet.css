@@ -1,7 +1,7 @@
-header h1{
+h1{
     background-color: black;
     color: white;
-    padding: 15px;
+    
     margin: 0;
     text-align: center;
 }
@@ -17,14 +17,16 @@ body{
     margin: 0;
 }
 
-#nav ul{
+nav > ul{
     margin: 0;
     flex-direction: row;
     justify-content: flex-end;
     list-style: none;
     display: flex;
+    padding: 0;
 }
-#nav li a{
+
+nav li a{
     display: block;
     padding: 10px;
     border-left: 1px solid white;
@@ -37,7 +39,7 @@ body{
     color: black;
 }
 
-#nav li:hover{
+nav li:hover{
     background-color: #80b3ff;
     color: black;
 }
@@ -48,18 +50,8 @@ nav{
     margin: 0;
 }
 
-ul{
-    /*margin: 0;
-    flex-direction: row;
-    justify-content: flex-end;
-    list-style: none;
-    display: flex;*/
-}
-
-
-li{
-    /*padding: 10px;
-    border-left: 1px solid white;*/
+#menu-button{
+    display: none;
 }
 
 .fa{
@@ -89,3 +81,64 @@ li{
 #insta{
     text-align: center;
 }
+
+@media(max-width: 450px){
+    #menu-button{
+      padding: 10px;
+  
+      display: block;
+      align-self: stretch;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    header{
+      background-color: lightblue;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed; /**makes nav fixed **/
+      left: 0;
+      right: 0;
+      top: 0;
+      height: 60px;
+      box-shadow: 0 -15px 10px 20px gray;
+    }
+  
+    main{
+      padding-top: 60px;
+    }
+  
+    h1{
+      padding: 10px;
+        
+      color: white;
+      background-color: lightblue;
+    }
+    nav{
+      display: none;
+      position: absolute;
+      top: 100%;
+      right: 0;
+    }
+  
+    nav.open{
+      display: block;
+    }
+  
+    nav > ul{
+      flex-direction: column; /** Already a flex box so just change direction **/
+    }
+  
+    nav > ul > li{
+      border-top: 1px solid white;
+    }
+    nav > ul > li:active, .active{
+      background-color: tan;
+      color: black;
+      }
+    
+  }

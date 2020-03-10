@@ -3,16 +3,25 @@
     <head>
         <title>About</title>
         <link rel="stylesheet" href = "stylesheet.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
     </head>
 
     <body>
         
         <header>
             <h1>About Me</h1>
-        </header>
         
-        <div id="nav">
-            <nav>
+        
+        <div id="menu-button">
+            <svg viewBox="0 0 100 80" width="30" height="30">
+              <rect fill="white" width="100" height="15"></rect>
+              <rect fill="white" y="30" width="100" height="15"></rect>
+              <rect fill="white" y="60" width="100" height="15"></rect>
+            </svg>
+          </div>
+        
+            <nav id="navigation">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="pricing.html">Pricing</a></li>
@@ -21,8 +30,10 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
-        </div>
+        
+        </header>
 
+        <main>
         <div class="gaoneng">
             <img src="Pictures/gaoneng-pic.jpg" alt="Gaoneng">
         </div>
@@ -50,5 +61,9 @@
             traditional and modern day mix it I would feel more of an attachment to the products I make.
         </p>
     </div>
+
+</main>
+
+<script src="menuButton.js"></script>
     </body>
 </html>
