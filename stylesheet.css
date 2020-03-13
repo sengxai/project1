@@ -83,6 +83,17 @@ nav{
     height: auto;
 }
 
+#imgGaoneng{
+  display: block;
+  text-align: center;
+  max-width: 50%;
+  max-height: 50%;
+    height: auto;
+    margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+}
+
 #insta{
     text-align: center;
 }
