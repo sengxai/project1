@@ -5,18 +5,40 @@ h1{
     text-align: center;
     height: 55;
     font-size: 35px;
+    font-family: sans-serif;
 }
 
 h2{
     text-align: center;
     font-size: 35px;
-    
+    font-family: sans-serif;
 }
 
 body{
     background-color: pink;
     margin: 0;
 }
+
+#container{
+  width: 500px;
+  margin: 0 auto;
+}
+
+div.gallery{
+  margin: 5px;
+  border: 1px solid grey;
+  float: left;
+  width: 180px;
+  text-align: center;
+
+}
+
+div.gallery img{
+   max-width: 100%;
+   height: auto;
+   display: block;
+}
+
 
 /*form{
   display: block;
@@ -115,7 +137,7 @@ nav{
     text-align: center;
 }
 
-@media(max-width: 500px){
+@media(max-width: 800px){
     #menu-button{
       padding: 10px;
   
@@ -147,7 +169,7 @@ nav{
   
     h1{
       padding: 10px;
-        
+      font-size: 25px;        
       color: white;
       background-color: lightblue;
     }
