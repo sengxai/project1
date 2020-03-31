@@ -14,6 +14,13 @@ h2{
     font-family: sans-serif;
 }
 
+h3{
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  padding: 10px;
+}
+
 body{
     background-color: pink;
     margin: 0;
@@ -40,10 +47,6 @@ div.gallery img{
 }
 
 
-/*form{
-  display: block;
-  text-align: center;
-}*/
 div.form
 {
     display: block;
@@ -55,6 +58,18 @@ form
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+}
+
+/* makes the labels aligned */
+form > label{
+  width: 100px;
+  display: inline-block;
+  text-align: right;
+}
+
+/* makes the button center on the form */
+.buttonHolder{
+  text-align: center;
 }
 
 nav > ul{
@@ -168,10 +183,14 @@ nav{
     }
   
     h1{
-      padding: 10px;
+      padding: auto;
       font-size: 25px;        
       color: white;
       background-color: lightblue;
+    }
+    h2{
+      padding-top: 60px;
+      color: black;
     }
     nav{
       display: none;

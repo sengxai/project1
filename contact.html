@@ -4,7 +4,7 @@
         <title>Contact</title>
         <link rel="stylesheet" href = "css/stylesheet.css">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-
+        <script defer src="js/menuButton.js"></script>
     </head>
 
     <body>
@@ -42,21 +42,23 @@
                 Phone: (715) 370-####</p>
         </div>
 
+        <h3>
+            Contact Form
+        </h3>
         <div class = "form">
             <form action="mailto:masterxai@hotmail.com?subject=Vintage Ideal Cards Inquiry" method="post" enctype="text/plain">
-                Name:
+                <label>Name:</label>
                 <input type="text" name="Name"><br>
-                E-mail:
+                <label>E-mail:</label>
                 <input type="text" name="E-mail"><br>
-                Comment:
+                <label>Comment:</label>
                 <input type="text" name="Comment" size="50"><br><br>
+                <div class="buttonHolder">
                 <input type="Submit" value="Send">
-                <input type="Reset" value="Reset">
+                <input type="Reset" value="Reset"></div>
             </form>
         </div>
 
-        <script src="js/menuButton.js"></script>
-
-        
+           
     </body>
 </html>
