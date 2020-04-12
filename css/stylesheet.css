@@ -86,7 +86,7 @@ figure{
   margin: 0;
 }
 
-img.imgPicTab{
+.imgPicTab{
   max-width: 100%;;
   height: auto;
   display: block;
@@ -191,7 +191,7 @@ nav{
     font-size: 24px;
 }
 
-#imgBalloonCard{
+.imgBalloonCard{
     max-width: 100%;
     height: auto;   
 }
