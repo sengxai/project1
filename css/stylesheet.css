@@ -3,9 +3,20 @@ h1{
     color: white;
     margin: 0;
     text-align: center;
-    height: 55;
     font-size: 35px;
     font-family: sans-serif;
+
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+  0% {color: white;}
+  25%{color: lightblue;}
+  50%{color: pink;}
+  75%{color: purple;}
+  100%{color: white;}
 }
 
 h2{
@@ -19,6 +30,7 @@ h3{
   font-size: 30px;
   margin: 0;
   padding: 10px;
+  font-family: sans-serif;
 }
 
 body{
@@ -28,47 +40,26 @@ body{
 
 main{
   width: 89%;
-  margin-top: 60px;
+  /*margin-top: 60px;*/
   margin-left: 150px;
 }
 
 
 
 /**This is the wedding page **/
-body.main.flexing{
-  display:flex;
-  flex-direction: column;
-  background-color: red;
-}
+
 
 .flexcontainer{
   display: flex;
   align-items: center;
+  flex-direction: row;
 }
 
 .flexcontainer p{
   font-size: 35px;
 }
-.flexes{
-  display: flex;
-  flex-direction: row;
-}
 
-#orgs{
-  font-size: 22px;
-}
 
-#flexing{
-  display:flex;
-}
-
-#prices{
-  font-size: 30px;
-}
-
-/*#flexing > p{
-  font-size: 30px;
-}
 
 /*Wedding page ended */
 
@@ -242,15 +233,44 @@ nav{
     }
   
     h1{
-      padding: auto;
       font-size: 25px;        
       color: white;
       background-color: lightblue;
+      margin-left: 100px;
+
+      animation-name: example;
+      animation-duration: 6s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes example{
+      0% {color: white;}
+      25%{color: black;}
+      50%{color: pink;}
+      75%{color: purple;}
+      100%{color: white;}
     }
     h2{
       padding-top: 60px;
       color: black;
     }
+
+    /*** Pricing ***/
+
+    .flexcontainer{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .flexcontainer p{
+      font-size: 35px;
+    }
+
+    /*** End pricing ***/
+
+    /*** Navigation ***/
+
     nav{
       display: none;
       position: absolute;
@@ -273,5 +293,7 @@ nav{
       background-color: tan;
       color: black;
       }
+
+      /*** End navigation ***/
     
   }
