@@ -32,6 +32,46 @@ main{
   margin-left: 150px;
 }
 
+
+
+/**This is the wedding page **/
+body.main.flexing{
+  display:flex;
+  flex-direction: column;
+  background-color: red;
+}
+
+.flexcontainer{
+  display: flex;
+  align-items: center;
+}
+
+.flexcontainer p{
+  font-size: 35px;
+}
+.flexes{
+  display: flex;
+  flex-direction: row;
+}
+
+#orgs{
+  font-size: 22px;
+}
+
+#flexing{
+  display:flex;
+}
+
+#prices{
+  font-size: 30px;
+}
+
+/*#flexing > p{
+  font-size: 30px;
+}
+
+/*Wedding page ended */
+
 #container{
   width: 500px;
   margin: 0 auto;
